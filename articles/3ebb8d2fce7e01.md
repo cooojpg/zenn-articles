@@ -1,9 +1,9 @@
 ---
 title: "SSM AutomationとSecrets Managerの相性が悪かった話"
 emoji: "🔐"
-type: "tech" # tech: 技術記事 / idea: アイデア
+type: "idea" # tech: 技術記事 / idea: アイデア
 topics: ["AWS", "SSM", "SecretsManager", "Windows", "EC2"]
-published: false
+published: true
 ---
 
 ## はじめに
