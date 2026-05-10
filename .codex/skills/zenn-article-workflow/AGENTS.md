@@ -22,7 +22,6 @@ Define the repo-local Codex skill for drafting, polishing, and pre-publish revie
 ### External Dependencies
 
 - `AGENTS.md`
-- `articles/AGENTS.md`
 - `docs/requirements.md`
 - `docs/structure.md`
 - `docs/agent-team/agent-router.md`

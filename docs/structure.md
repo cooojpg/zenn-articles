@@ -46,11 +46,9 @@ The feature directories are described below.
 |        |- agents/
 |        `- references/
 |- articles/
-|  |- AGENTS.md
 |  |- *.md
 |  `- image.png
 |- books/
-|  `- AGENTS.md
 |- docs/
 |  |- AGENTS.md
 |  |- requirements.md
@@ -120,8 +118,14 @@ Use this only after research notes, reusable prompts, or shared templates become
 - each managed feature directory may contain its own `AGENTS.md`
 - lower directories narrow scope and add detail
 
+Exception:
+
+- do not place `AGENTS.md` under Zenn-managed content roots such as `articles/` and `books/`
+
 ### Paths Intentionally Without `AGENTS.md`
 
+- `articles/`
+- `books/`
 - `docs/agent-team/prompts/core/`
 - `docs/agent-team/prompts/generated/`
 - individual article files and image assets

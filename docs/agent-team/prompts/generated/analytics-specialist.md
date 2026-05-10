@@ -14,7 +14,6 @@
 - `docs/agent-team/agent-router.md`
 - `docs/requirements.md`
 - `AGENTS.md`
-- `articles/AGENTS.md`
 
 ## 関連要件
 

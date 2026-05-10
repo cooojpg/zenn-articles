@@ -35,6 +35,7 @@
 ## 機能要件
 
 - `articles/` 配下で Zenn 記事の Markdown ソースを管理する
+- `articles/` と `books/` には、Zenn が解釈する有効な記事・本・アセット以外の Markdown ファイルを置かない
 - 新規記事作成時は、テーマやメモを受け取り、必要なら短くヒアリングしてから構成と本文を作る
 - 新規記事作成時は、未指定なら 2〜3 個の readable な英語 `kebab-case` slug 候補を提案する
 - 新規記事は `articles/<slug>.md` に保存し、frontmatter は `title`、`emoji`、`type`、`topics`、`published` を基本形とする
@@ -107,6 +108,7 @@
 
 - 記事品質を優先し、全文自動生成より「ヒアリング -> slug 候補 -> 構成案 -> 本文」の段階的フローを採る
 - 新規 slug は readable な英語 `kebab-case` を採用するが、既存のランダム風 slug は一括移行しない
+- `articles/` や `books/` に repo 管理用の `AGENTS.md` を置かず、ルールは root `AGENTS.md` や `.codex/skills/` 側へ寄せる
 - agent-team は役割分離を行うが、ユーザーが delegation を明示したときだけ使う
 - `公開エージェント` は当面 Zenn 公開準備までに留め、外部投稿自動化は別責務に分ける
 

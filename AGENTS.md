@@ -46,6 +46,7 @@ Rules:
 ## 5. Article Workflow
 
 - `articles/` stores Zenn article Markdown files and related assets
+- `articles/` and `books/` are Zenn-managed content roots, so do not place `AGENTS.md` or arbitrary Markdown files there unless they are valid Zenn content
 - new article filenames should use readable English `kebab-case` slugs
 - default new article frontmatter should include `published: false`
 - preserve existing random-style slugs unless the user explicitly asks to rename them
