@@ -19,7 +19,6 @@
 - `docs/agent-team/agent-router.md`
 - `docs/requirements.md`
 - `AGENTS.md`
-- `articles/AGENTS.md`
 - 対象記事があるならその Markdown
 
 ## 入力契約

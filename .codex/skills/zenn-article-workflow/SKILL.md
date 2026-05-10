@@ -8,7 +8,6 @@ description: Repo-local workflow for drafting, polishing, and pre-publish review
 Read the repository rules first:
 
 - `AGENTS.md`
-- `articles/AGENTS.md`
 - `docs/requirements.md`
 - `docs/structure.md`
 
