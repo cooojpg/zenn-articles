@@ -1,0 +1,4 @@
+interface:
+  display_name: "Zenn Article Workflow"
+  short_description: "Draft, polish, and review Zenn articles in this repository."
+  default_prompt: "Use $zenn-article-workflow to draft, polish, or pre-publish review articles under `articles/` in this repository."
