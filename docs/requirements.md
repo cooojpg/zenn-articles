@@ -36,6 +36,7 @@
 
 - `articles/` 配下で Zenn 記事の Markdown ソースを管理する
 - `articles/` と `books/` には、Zenn が解釈する有効な記事・本・アセット以外の Markdown ファイルを置かない
+- `books/` を未使用の期間も、GitHub 上でディレクトリが消えないように追跡対象の placeholder ファイルを置く
 - 新規記事作成時は、テーマやメモを受け取り、必要なら短くヒアリングしてから構成と本文を作る
 - 新規記事作成時は、未指定なら 2〜3 個の readable な英語 `kebab-case` slug 候補を提案する
 - 新規記事は `articles/<slug>.md` に保存し、frontmatter は `title`、`emoji`、`type`、`topics`、`published` を基本形とする

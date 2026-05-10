@@ -47,6 +47,7 @@ Rules:
 
 - `articles/` stores Zenn article Markdown files and related assets
 - `articles/` and `books/` are Zenn-managed content roots, so do not place `AGENTS.md` or arbitrary Markdown files there unless they are valid Zenn content
+- if `books/` is not in active use, keep a tracked placeholder such as `books/.keep` so the directory still exists on GitHub for Zenn
 - new article filenames should use readable English `kebab-case` slugs
 - default new article frontmatter should include `published: false`
 - preserve existing random-style slugs unless the user explicitly asks to rename them

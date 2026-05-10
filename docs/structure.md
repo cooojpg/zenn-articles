@@ -49,6 +49,7 @@ The feature directories are described below.
 |  |- *.md
 |  `- image.png
 |- books/
+|  `- .keep
 |- docs/
 |  |- AGENTS.md
 |  |- requirements.md
