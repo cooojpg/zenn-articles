@@ -48,6 +48,8 @@ The feature directories are described below.
 |- articles/
 |  |- *.md
 |  `- image.png
+|- images/
+|  `- *.png
 |- books/
 |  `- .keep
 |- docs/
@@ -106,6 +108,7 @@ Use this only after research notes, reusable prompts, or shared templates become
 ## Key Decisions
 
 - Keep published content under `articles/` rather than introducing a second draft tree.
+- Store article images for Zenn GitHub integration under the repository-root `images/` directory and reference them with `/images/...` paths.
 - Reserve `.codex/skills/` for repo-local skills instead of mixing skill instructions into root docs.
 - Treat `docs/agent-team/` as the durable entrypoint for delegation guidance.
 - Keep `books/` intentionally light until the repository actually adopts a Zenn book workflow.
@@ -127,6 +130,7 @@ Exception:
 
 - `articles/`
 - `books/`
+- `images/` (Zenn image assets only)
 - `docs/agent-team/prompts/core/`
 - `docs/agent-team/prompts/generated/`
 - individual article files and image assets
