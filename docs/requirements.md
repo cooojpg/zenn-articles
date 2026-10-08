@@ -35,6 +35,7 @@
 ## 機能要件
 
 - `articles/` 配下で Zenn 記事の Markdown ソースを管理する
+- Zenn の GitHub 連携で使う記事画像はリポジトリ直下の `images/` に置き、本文から `/images/...` で参照する
 - `articles/` と `books/` には、Zenn が解釈する有効な記事・本・アセット以外の Markdown ファイルを置かない
 - `books/` を未使用の期間も、GitHub 上でディレクトリが消えないように追跡対象の placeholder ファイルを置く
 - 新規記事作成時は、テーマやメモを受け取り、必要なら短くヒアリングしてから構成と本文を作る
@@ -81,7 +82,7 @@
 
 ### データ・永続化
 
-該当。永続データは Markdown ファイル、画像などのファイル資産、各種ドキュメントに限定する。DB やマイグレーション管理は不要で、記事コンテンツは `articles/`、将来の本コンテンツは `books/` に保存する。
+該当。永続データは Markdown ファイル、画像などのファイル資産、各種ドキュメントに限定する。DB やマイグレーション管理は不要で、記事の Markdown は `articles/`、Zenn 連携用の画像は `images/`、将来の本コンテンツは `books/` に保存する。
 
 <!-- fidelity: high, source: repository contents -->
 
@@ -134,6 +135,7 @@
   - `config.toml`
   - `skills/`
 - `articles/`
+- `images/`
 - `books/`
 - `docs/`
   - `requirements.md`
